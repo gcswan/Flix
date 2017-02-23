@@ -1,3 +1,4 @@
+
 .navbar {
   height:150px;
 }
@@ -6,8 +7,27 @@
 }
 .btn{
     display:flex;
-    margin-right:25px;
+    margin:25px;
     text-align: center;
     align-items: center;
     align-content: center;
+}
+
+
+main {
+  display:flex;
+  height:650px;
+  background-image:url("http://media.istockphoto.com/photos/closed-theater-red-curtains-and-seats-3d-picture-id494542100?k=6&m=494542100&s=170667a&w=0&h=QqhUB_L5_qTLAlQjVoCtN63kNSXmwPd_KW5q95uVpzs=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  flex-direction: column;
+
+}
+.freetrial {
+  font-size: 35px;
+  border: 1px solid white;
 }
