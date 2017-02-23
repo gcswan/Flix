@@ -1,0 +1,13 @@
+.navbar {
+  height:150px;
+}
+.form-control {
+  margin: 10px;
+}
+.btn{
+    display:flex;
+    margin-right:25px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
