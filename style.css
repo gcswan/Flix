@@ -49,5 +49,20 @@ h1 {
   flex-direction:column;
 }
 .toprated {
-
+  height:325px;
+  width: 100%;
+  background-image: url("http://www.tasteofcinema.com/wp-content/uploads/2014/10/best-recent-indie-movies.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  justify-content: center;
+  display:flex;
+}
+.movies {
+  height:325px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQ4PyrUuCNXAOsHqm8OERwfbg-tjjStXtDFQQnzTqdDmJr9M4J");
+  background-repeat: no-repeat;
+  background-size:contain;
+  justify-content: center;
+  display:flex;
 }
