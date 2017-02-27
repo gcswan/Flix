@@ -5,14 +5,14 @@
 .form-control {
   margin: 10px;
 }
-.btn{
+
+.signup{
     display:flex;
     margin:25px;
     text-align: center;
     align-items: center;
     align-content: center;
 }
-
 
 .firstsection {
   display:flex;
@@ -25,6 +25,7 @@
   color: white;
   font-size: 50px;
   flex-direction: column;
+  border-bottom: 25px;
 
 }
 .freetrial {
@@ -34,35 +35,43 @@
 .fa-arrow-down {
   margin-top: 45px;
 }
+
 .secondsection {
-  height: 650px;
   background-color: black;
+  border-top: 30px solid black;
+
 }
 h1 {
   color:white;
 }
 .column {
-  border: 1px solid white;
+  text-align: center;
+  height: 600px;
+  border-top: 50px;
 }
-.moviecol {
+.column img {
+  width: 350px;
+  height: 250px;
+}
+
+
+.thirdsection {
+  background-color:black;
+  height: 800px;
+  border-top: 30px solid black;
+}
+aside {
+  background-color: gray;
+  height: 600px;
   display:flex;
   flex-direction:column;
-}
-.toprated {
-  height:325px;
-  width: 100%;
-  background-image: url("http://www.tasteofcinema.com/wp-content/uploads/2014/10/best-recent-indie-movies.jpg");
-  background-repeat: no-repeat;
-  background-size:contain;
   justify-content: center;
-  display:flex;
+  align-items: center;
+  text-align: center;
 }
-.movies {
-  height:325px;
-  width: 100%;
-  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQ4PyrUuCNXAOsHqm8OERwfbg-tjjStXtDFQQnzTqdDmJr9M4J");
-  background-repeat: no-repeat;
-  background-size:contain;
-  justify-content: center;
-  display:flex;
+.plans {
+  height:600px;
+  background-color: white;
+  display: flex;
+  align-items:center;
 }
